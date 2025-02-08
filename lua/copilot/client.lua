@@ -5,7 +5,7 @@ local api_url = "https://api.openai.com/v1/chat/completions"
 function M.setup(config)
 	M.config = vim.tbl_extend("force", {
 		api_key = nil,
-		model = "gpt-3.5-turbo",
+		model = "gpt-4",
 		max_tokens = 1000,
 		temperature = 0.7,
 	}, config or {})
